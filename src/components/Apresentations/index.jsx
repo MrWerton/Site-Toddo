@@ -30,8 +30,7 @@ const Apresentations = () => {
          <Apresentation reverse={true} className="ItemIII" Img={Objetivos.Img} title={Objetivos.title} description={Objetivos.description}/>
       </div>
     <div>
-
-        {/* O apresentation vem aqui @Gabrile*/}
+    <Apresentation className= "ItemII"  Img= {Justificativa.Img} title={Justificativa.title} description= {Justificativa.description} />
     </div>
       
     </Container>
