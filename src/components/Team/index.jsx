@@ -11,7 +11,7 @@ const Team = () => {
       <div>
         {/*o card vem aqui @Araujo*/}
         <Card name="Werton Pereira"  Img={'https://github.com/mrwerton.png'} />
-       {/* O card vem aqui @Gabrile */}
+        <Card name= "Gabriela Duarte" Img={'https://github.com/mrwerton.png'} />
       </div>
     </Container>
   );
