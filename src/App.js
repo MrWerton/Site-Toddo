@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './compoenents/Header';
+import Header from './components/Header';
 /* import AppDetails from './compoenents/AppDetails';    apague esse comentário para vizualizar as mudanças @Araujo*/ 
 /* import DownloadApp from './compoenents/DownloadApp'; apaga esse comentário para vizualizar as mudanças @gabriele*/
-import Apresentations from './compoenents/Apresentations';
-import Team from './compoenents/Team';
-import ProjectLinks from './compoenents/ProjectLinks';
+import Apresentations from './components/Apresentations';
+import Team from './components/Team';
+import ProjectLinks from './components/ProjectLinks';
 
 function App() {
     return (
