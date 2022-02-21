@@ -9,7 +9,7 @@ const Team = () => {
     <Container>
       <h2>Nosso Time</h2>
       <div>
-        {/*o card vem aqui @Araujo*/}
+        <Card name="Lívia Araújo"  Img={'https://github.com/livia-be.png'} />
         <Card name="Werton Pereira"  Img={'https://github.com/mrwerton.png'} />
         <Card name= "Gabriela Duarte" Img={'https://github.com/mrwerton.png'} />
       </div>

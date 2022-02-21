@@ -5,7 +5,7 @@ import PersonII from '../../assets/Person2.svg'
 import PersonIII from '../../assets/Person3.svg'
 const Resumo = {
   title: 'Resumo', 
-  description: '',//add teu texto aqui @araujo
+  description: 'No cenário atual, são constantes as queixas por falta de tempo para a realização de tarefas diárias, isso está diretamente relacionado a má gestão de tempo e organização.Este trabalho tem como objetivo apresentar uma aplicação mobile para gestão de tarefas. A criação do app será feita no pilha js para aplicações fullstack, e a metodologia scrum será aplicada para organizar e gerenciar o projeto. O resultado esperado é uma aplicação mobile funcional com interface amigável que atenda ao objetivo inicial de gerenciamento de tarefas. Ademais, espera-se que ao final do projeto o grupo tenha desenvolvido as habilidades necessárias para o desenvolvimento de uma aplicação mobile.',
   Img: PersonI
 }
 const Justificativa = {
@@ -22,8 +22,8 @@ const Apresentations = () => {
   return (
     <Container>
       <div>
-
-      {/* o Apresentation vem aqui @Araujo*/}
+      <Apresentation className= "ItemII"  Img= {Resumo.Img} title={Resumo.title} description= {Resumo.description} />
+    
       </div>
       
       <div style={{justifyContent: 'flex-end'}}>
